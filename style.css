@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: "Space Grotesk", sans-serif;
+}
+
+#container {
+  width: 650px;
+  height: 890px;
+  margin: auto;
+}
+#profilecontainer {
+  width: 602px;
+  height: 248px;
+  margin-top: 50px;
+  margin-left: 22px;
+  margin-right: 24px;
+  margin-bottom: 848px;
+}
+#profile img {
+  display: block;
+  width: 85px;
+  margin: auto;
+}
+#username {
+  font-weight: 700;
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+  margin-top: 16px;
+  line-height: normal;
+}
+#description {
+  margin-top: 12px;
+  color: #292929;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/*Corrigir margin*/
+
+#socialmedia {
+  display: flex;
+  margin-left: 265px;
+  margin-top: 10px;
+  gap: 10px;
+  width: 22px;
+  height: 22px;
+}
+#flinkstxt {
+  display: block;
+  font-size: 12px;
+  letter-spacing: 4px;
+  padding: 18px 0px 16px 0px;
+  text-align: center;
+}
+/*Ajustar Div*/
+#featuredlinks {
+  display: flex;
+  justify-content: center;
+  padding: 0px 16px 0px 18px;
+  display: flex;
+}
+/*Lista de Links Destacados*/
+
+ul {
+  padding: 8px, 32px, 8px;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  color: #292929;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  width: 500px;
+  height: 32px;
+  margin-bottom: 16px;
+  align-items: center;
+  padding: 8px 22px 8px 30px;
+  border-radius: 48px;
+  border: 1px solid #292929;
+  transition: background 0.2s;
+  background: #fff;
+}
+#otherLinks {
+  padding: 0px 16px 0px 18px;
+  display: flex;
+}
+#olinkstxt {
+  display: block;
+  font-size: 12px;
+  letter-spacing: 4px;
+  padding: 8px 0px 16px 0px;
+  text-align: center;
+}
+#footertxt {
+  display: block;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 18px 0px 16px 0px;
+  text-align: center;
+}
+#buttonIcon {
+  display: flex;
+  margin-left: -25px;
+  margin-right: 5px;
+}
+#arrowsvg {
+  display: flex;
+  position: absolute;
+  margin-left: 485px;
+}
+#boxshadow {
+  box-shadow: 4px 4px 0px 0px #292928;
+}
